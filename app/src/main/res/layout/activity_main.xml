@@ -42,28 +42,77 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
-            android:id="@+id/Linear_red"
+            android:id="@+id/linear_red"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff0000"
+            android:padding="10dp"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="🐰김준면🐰"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/kjm"
+                />
 
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/Linear_yellow"
+            android:id="@+id/linear_yellow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff00"
+            android:padding="10dp"
             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="🐣오세훈🐣"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/osh"
+                />
 
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/Linear_blue"
+            android:id="@+id/linear_blue"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#0000ff"
+            android:padding="10dp"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="🐶변백현🐶"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/bbk"
+                />
         </LinearLayout>
     </FrameLayout>
 
